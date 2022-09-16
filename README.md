@@ -1,2 +1,2 @@
 # wdd330
-BYU-Idaho Online WDD 330
+Portfolio for BYU-Idaho Online's WDD 330 course.
