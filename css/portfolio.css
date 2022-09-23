@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(125, 145, 125);
+}
+
+header, main {
+    padding: 0.75rem;
+}
+
+header {
+    background-color: rgb(115, 190, 115);
+    border-radius: 15px 15px 0 0;
+}
+
+main {
+    background-color: rgb(144, 238, 144);
+    border-radius: 0 0 15px 15px;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+h1, h2, h3, ol, ul, p, li {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+ol, ul {
+    margin: 0.5rem 0;
+    padding-left: 1.25rem;
+}
+
+p, li {
+    font-family: "Tahoma", Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+a {
+    color: rgb(100, 100, 255);
+}
+
+a:visited {
+    color: rgb(50,50,155);
+}
+
+#home-content {
+    max-width: 750px;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: 0.5rem 0.5rem 0.25rem;
+}
