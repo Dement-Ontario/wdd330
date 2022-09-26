@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 330 | W02 Team Activity</title>
+    <meta name="description" content="Team activity for Week 02 in BYU-Idaho's WDD 330 course">
+    <link rel="shortcut icon" href="../favicon.ico">
+</head>
+<body>
+    <main>
+        <input id="input-1" type="text" placeholder="Put your first number here">
+        <input id="input-2" type="text" placeholder="Put another number here">
+        <button id="add-up">Add up to the first number</button>
+        <button id="add-with">Add both your numbers</button>
+        <div id="copy-to"></div>
+    </main>
+    <script>
+        const addUp = document.getElementById('add-up');
+        const addWith = document.getElementById('add-with')
+        const input1 = document.getElementById('input-1');
+        const input2 = document.getElementById('input-2');
+        const copyToThis = document.getElementById('copy-to');
+
+        function inputToDiv(output) {
+            copyToThis.innerHTML = output;
+        }
+
+        function addEmUp(number) {
+            let counter = 1;
+            let total = 0;
+            while(counter !== number + 1) {
+                total += counter;
+                ++counter;
+            }
+            return total;
+        }
+
+        addUp.onclick = function() {
+            if(!isNaN(parseInt(input1.value))) {
+                const output = addEmUp(parseInt(input1.value));
+                inputToDiv(output);
+            };
+        }
+
+        addWith.onclick = function() {
+            if(!isNaN(parseInt(input1.value)) && !isNaN(parseInt(input2.value))) {
+                const output = parseInt(input1.value) + parseInt(input2.value);
+                inputToDiv(output);
+            };
+        }
+    </script>
+</body>
+</html>
