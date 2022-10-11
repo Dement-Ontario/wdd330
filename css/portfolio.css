@@ -1,5 +1,6 @@
 body {
     background-color: rgb(125, 145, 125);
+    margin: 0;
 }
 
 header, main {
@@ -29,7 +30,6 @@ h2 {
 }
 
 ol, ul {
-    margin: 0.5rem 0;
     padding-left: 1.25rem;
 }
 
@@ -38,12 +38,21 @@ p, li {
     line-height: 1.5rem;
 }
 
+ul {
+    margin: 0.5rem 0;
+}
+
 a {
-    color: rgb(100, 100, 255);
+    color: rgb(75, 75, 191);
+    text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    color: rgb(191, 75, 75);
 }
 
 a:visited {
-    color: rgb(50,50,155);
+    color: rgb(40,40,102);
 }
 
 #home-content {

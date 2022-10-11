@@ -1,19 +1,23 @@
 const links = [
     {
-        label : "Week 01",
+        label : "Week 01: Notes on Mobile Design and Not Much Else",
         url : "week01/"
     },
     {
-        label : "Week 02",
+        label : "Week 02: The Basics, Arrays, If-Thens, Loops, and Functions",
         url : "week02/"
     },
     {
-        label : "Week 03",
+        label : "Week 03: This, Objects, the DOM, and Events",
         url : "week03/"
     },
     {
-        label : "Week 04",
+        label : "Week 04: Forms, OOP, and Modules",
         url : "week04/"
+    },
+    {
+        label : "Week 05: Testing and Debugging",
+        url : "week05/"
     }
 ];
 
