@@ -1,0 +1,115 @@
+li, li div div, #task-list-footer,
+button#add-item, textarea {
+    border: 1px solid;
+    padding: 0.25rem;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, ol, ul, p, li {
+    margin: 0;
+}
+
+p, li {
+    font-family: "Tahoma", Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+li, li div, footer, #task-list-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+li, footer, #task-list-footer {
+    justify-content: space-between;
+}
+
+li div {
+    width: 85%;
+}
+
+li div div {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+body {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 0 0.5rem;
+    min-height: calc(100vh - 100px);
+    display: grid;
+    grid-template-rows: 3rem 1fr auto;
+}
+
+img {
+    width: 50px;
+}
+
+textarea {
+    width: 85%;
+    height: 69%;
+    padding: 0.5rem;
+}
+
+li {
+    border-bottom: none;
+    max-width: 400px;
+}
+
+button.remove-item, #task-list-footer button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+button#add-item:hover, button.remove-item:active,
+#task-list-footer button:active {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+button#add-item:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button#add-item, button.remove-item {
+    font-size: 3rem;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+}
+
+#task-list-footer button {
+    font-size: 1rem;
+}
+
+#task-list-footer button, button.remove-item {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#task-list-footer button:hover, #task-list-footer button.active,
+button.remove-item:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.hidden {
+    display: none;
+}
+
+.todo-item {
+    width: 79%;
+    word-break: break-all;
+}
+
+.complete {
+    text-decoration: line-through;
+}
