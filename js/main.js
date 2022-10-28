@@ -22,6 +22,10 @@ const links = [
     {
         label : "Week 06: The Return of the ToDo List",
         url : "week06/"
+    },
+    {
+        label : "Week 07: Further Functions, Ajax, and Fetch",
+        url : "week07/"
     }
 ];
 
