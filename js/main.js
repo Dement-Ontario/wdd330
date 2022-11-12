@@ -30,6 +30,10 @@ const links = [
     {
         label : "Week 08: Transforms, Transitions, Canvas, SVG, and Drag and Drop",
         url : "week08/"
+    },
+    {
+        label : "Week 09: The Window Object and Some HTML APIs",
+        url : "week09/"
     }
 ];
 
