@@ -34,6 +34,10 @@ const links = [
     {
         label : "Week 09: The Window Object and Some HTML APIs",
         url : "week09/"
+    },
+    {
+        label : "Week 10: More Forms, More Fetch",
+        url : "week10/"
     }
 ];
 

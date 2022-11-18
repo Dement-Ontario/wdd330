@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 330 | Week 10</title>
+    <meta name="description" content="Portfolio for Joseph Toronto in BYU-Idaho's WDD 330 course">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+</head>
+<body>
+    <div id="home-content">
+        <header>
+            <h1>Joseph's WDD 330 Portfolio | Week 10 Notes and Such</h1>
+        </header>
+        <main>
+            <h2>Notes</h2>
+            <h3>MDN: Validating Forms</h3>
+            <ul>
+                <li>
+                    I forgot the syntax, but "this field is required" example would need "required" in the HTML, the HTML for the
+                    phone number one would include "phone" somewhere, the email one would include "email",
+                    and the 8-to-30-character-long one would contain some form of regular expression.
+                </li>
+                <li>
+                    Out of curiosity, could SQL injection be a way for malicious users to misuse unprotected forms?
+                </li>
+                <li>
+                    Ah, now I remember. The syntax for the phone and email validation use [type]. [min] and [max]
+                    would also work for the character count portion of the 8-36 character form, and [pattern] is for the
+                    regular expression.
+                </li>
+                <li>
+                    You could probably make a custom message for each submission error in JavaScript. Not sure why you would as
+                    from what I know that kind of thing happens in the browser already, but if you want a custom thing, there you go.
+                </li>
+                <li>
+                    Hmm. I recognize fruit-start.html. Either it's some sort of default thing for teaching or I've read this before.
+                </li>
+                <li>
+                    There's a [:required] CSS pseudo-class? That would've been really useful last semester. I made a big red asterisk
+                    with its own class and everything when I could've used the form itself. Or maybe I just wanted to make a big red
+                    asterisk anyway.
+                </li>
+                <li>
+                    <i>Now</i> I remember this page. I had to read the regular expressions section and I had no idea what on earth
+                    I was doing. This is the thing I compared to the regular expression section in Novice to Ninja some weeks back.
+                </li>
+                <li>
+                    Why is the default error message's dependence on browser locale considered a problem? From what I can tell, the
+                    person chose that language from the browser, so misunderstanding isn't an issue. Does it have to do with consistency?
+                </li>
+            </ul>
+            <h3>MDN: Using Fetch</h3>
+            <ul>
+                <li>
+                    I didn't know [response.ok] was a shortcut. Neat.
+                </li>
+                <li>
+                    Even the article's examples don't know what else to do when fetch support isn't detected.
+                    The comment's in the form of a question and everything.
+                </li>
+            </ul>
+            <h2>Exercises</h2>
+            <ul>
+                <li>
+                    <a href="w10team/Week10.html">W10 Team Activity</a> (Main Driver: Nefi Israel Perez Reyes)
+                </li>
+            </ul>
+        </main>
+    </div>
+</body>
+</html>

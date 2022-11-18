@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(180, 212, 245);
+    
+}
+
+/* main, header */
+ #pageContent {
+    background-color: rgb(98, 175, 251);
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+    box-shadow: 0.5rem 0.5rem 0.25rem;
+    padding: 2rem;
+}
+
+a {
+    padding: 0.8rem;
+    border-radius: 20px;
+    background-color: rgb(212, 212, 78);
+}
+
+.source {
+    background-color: transparent; 
+    /* added this so the source won't look like a button like the other "a" items */
+}
+
+.quakeTitle{
+    font-family: "Roboto", Helvetica, sans-serif;
+    
+}
+
+li, p{
+    font-family: "Tahoma", Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
