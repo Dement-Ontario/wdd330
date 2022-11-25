@@ -38,6 +38,10 @@ const links = [
     {
         label : "Week 10: More Forms, More Fetch",
         url : "week10/"
+    },
+    {
+        label : "Week 11 Team Activity Link",
+        url : "weekeleven/"
     }
 ];
 
