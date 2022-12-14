@@ -1,0 +1,152 @@
+:root {
+    --poke-color-red: #ff0000;
+    --poke-color-bured: #cc0000;
+    --poke-color-cerblue: #5767dc;
+    --poke-color-goldyellow: #ffde00;
+    --poke-color-goldfoil: #b3a125;
+    --heading-fonts: 'Galindo', Trebuchet MS, serif;
+    --everything-else-fonts: 'Press Start 2P', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--poke-color-cerblue);
+}
+
+header {
+    background-color: var(--poke-color-bured);
+    padding: 0.5rem;
+}
+
+header, footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main, footer {
+    background-color: white;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+main {
+    min-height: calc(100vh - 150px - 4.15rem);
+}
+
+footer {
+    padding-top: 0.65rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+h1 {
+    color: var(--poke-color-goldyellow);
+    text-shadow: 0 0 25px black;
+    font-family: var(--heading-fonts);
+    margin: 0;
+    text-align: center;
+}
+
+p, label, button, input {
+    font-family: var(--everything-else-fonts);
+}
+
+button {
+    padding: 0.5rem;
+}
+
+button, input {
+    background-color: white;
+}
+
+button:hover, input:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+button:active, input[type = "submit"]:active {
+    background-color: lightgray;
+}
+
+input {
+    padding: 1rem;
+}
+
+input[type = "text"] {
+    width: 100%;
+}
+
+input[type = "submit"] {
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+section, section div.img-div, button, input {
+    border: 1px solid;
+}
+
+section div:not(.img-div) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section, section div.img-div {
+    background-color: rgba(0,0,0,0.15);
+}
+
+section.filled div.img-div {
+    background-color: rgba(0,255,0,0.20);
+}
+
+section div.img-div {
+    width: 150px;
+    height: 150px;
+}
+
+form {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+#poke-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+}
+
+#made-with {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    margin: 0;
+    padding: 0;
+    line-height: 0.6rem;
+    font-size: 0.6rem;
+}
+
+.remove-button {
+    font-size: 1rem;
+}

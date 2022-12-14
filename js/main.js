@@ -42,6 +42,10 @@ const links = [
     {
         label : "Week 11 Team Activity Link",
         url : "weekeleven/"
+    },
+    {
+        label : "Week 14: Pokemon Team Creator & Self-Evaluation Video",
+        url : "week14/"
     }
 ];
 
